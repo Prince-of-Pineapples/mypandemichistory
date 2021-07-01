@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mypandemichistory\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mypandemichistory\.com$
+RewriteRule ^/?$ "http\:\/\/mypandemichistory\.com\/wordpress\/" [R=301,L]
+
